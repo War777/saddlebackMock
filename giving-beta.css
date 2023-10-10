@@ -1,0 +1,163 @@
+html > body {
+    margin: 0 auto;
+  }
+  
+  .pageContainer a {
+    display: inline;
+    padding: 0;
+  }
+  
+  .grid {
+    letter-spacing: normal !important;
+  }
+  
+  .content .widget-content form input[type=checkbox],
+  .content .widget-content form input[type=radio] {
+    display: none;
+  }
+  .content .widget-content .Select {
+    max-width: none;
+  }
+  .content .widget-content .Select-control,
+  .content .widget-content .is-open:not(.Select--multi) > .Select-control {
+    background-color: #ffffff;
+    border-color: #00aeef;
+    color: #4d4d4f;
+    padding: 0;
+  }
+  .content .widget-content .Select-control .Select-value-label,
+  .content .widget-content .is-open:not(.Select--multi) > .Select-control .Select-value-label {
+    color: #4d4d4f !important;
+  }
+  .content .widget-content .Select-control .Select-arrow-zone .ui.icon .icon-use-path,
+  .content .widget-content .Select-control .Select-clear-zone .ui.icon .icon-use-path,
+  .content .widget-content .is-open:not(.Select--multi) > .Select-control .Select-arrow-zone .ui.icon .icon-use-path,
+  .content .widget-content .is-open:not(.Select--multi) > .Select-control .Select-clear-zone .ui.icon .icon-use-path {
+    fill: #4d4d4f;
+  }
+  .content .widget-content .Select-option {
+    background-color: #ffffff;
+    color: #4d4d4f;
+    font-size: 16px;
+    font-weight: normal;
+    padding: 10px 22px;
+  }
+  .content .widget-content .Select-menu-outer,
+  .content .widget-content .Select-option.is-selected {
+    background-color: #ffffff;
+    color: #4d4d4f;
+  }
+  .content .widget-content .Select-option.is-focused,
+  .content .widget-content .Select-option:hover {
+    background-color: #00aeef;
+    color: #ffffff;
+  }
+  .content .widget-content .ui.a {
+    color: #00aeef;
+    font-size: 1rem;
+    font-weight: normal;
+  }
+  .content .widget-content .ui.a:hover {
+    color: #0093c6;
+  }
+  .content .widget-content .button, .content .widget-content button, .content .widget-content input[type=button] {
+    height: 44px;
+    line-height: 44px;
+  }
+  .content .widget-content .button-inner-container, .content .widget-content .button-inner-container {
+    font-size: 1rem;
+  }
+  .content .widget-content .MuiButton-containedSizeLarge:hover, .content .widget-content .MuiButton-outlinedSizeLarge:hover {
+    background-color: #0093c6;
+    border-color: #0093c6;
+    color: #ffffff;
+  }
+  .content .widget-content .MuiButton-containedSizeLarge:disabled:hover, .content .widget-content .MuiButton-outlinedSizeLarge:disabled:hover {
+    background-color: #dbe0e3;
+    border-color: #dbe0e3;
+  }
+  .content .widget-content .MuiButton-containedPrimary {
+    background-color: #00aeef;
+  }
+  .content .widget-content .cmui.button {
+    background-color: #00aeef;
+  }
+  .content .widget-content .cmui.button .icon-search {
+    display: inline;
+    height: auto !important;
+    width: auto !important;
+  }
+  .content .widget-content .cmui.button svg {
+    display: none;
+  }
+  .content .widget-content .input-icon-custom .icon-calendar {
+    height: auto;
+  }
+  .content .widget-content .input-icon-custom .icon-calendar svg {
+    display: none;
+  }
+  .content .widget-content .hc_giving_campaign_details--hero_image_container {
+    margin-bottom: 33px;
+  }
+  .content .widget-content .hc_giving_campaign_details--giving_actions_separator {
+    font-weight: 900;
+    margin: 16px 0;
+    text-align: center;
+  }
+  .content .widget-content #hc_giving_campaign_details--give_now_button {
+    width: 100%;
+  }
+  .content .widget-content .giving-checkout1 .MuiButton-label {
+    font-size: 13px;
+  }
+  
+  .hc_giving_designation_details {
+    padding: 0 11px;
+  }
+  
+  @media screen and (min-width: 575px) {
+    .content h1 {
+      font: normal 44px/48px "Lato", Arial;
+      margin-left: 33px;
+    }
+    .content .hc_giving_designation_details {
+      padding: 0;
+    }
+    .content .widget-content {
+      padding: 0 33px;
+    }
+    .content .widget-content .giving-checkout1 .MuiButton-label {
+      font-size: 1rem;
+    }
+    .content .widget-content .giving-checkout1 .MuiButton-containedSizeLarge {
+      padding: 7px 11px;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    .hc_giving_campaign_details--main_content_container {
+      display: flex;
+    }
+    .hc_giving_campaign_details--main_content_container .hc_giving_campaign_details--details_container {
+      padding-right: 5%;
+      width: 60%;
+    }
+    .hc_giving_campaign_details--main_content_container .hc_giving_campaign_details--giving_actions_container {
+      padding-left: 5%;
+      width: 40%;
+    }
+    .hc_giving_campaign_details--main_content_container .hc_giving_campaign_details--title {
+      font-size: 36px;
+      font-weight: 900;
+    }
+  }
+  @media screen and (min-width: 1130px) {
+    .giving-designation-details-container {
+      display: flex;
+    }
+    .giving-designation-details-container div[data-hc-widget-type="giving-designation-details"] {
+      width: 60%;
+    }
+    .giving-designation-details-container div[data-hc-widget-type="giving-checkout"] {
+      width: 40%;
+    }
+  }
